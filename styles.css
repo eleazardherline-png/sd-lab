@@ -1,0 +1,109 @@
+/* ===== GOOGLE FONTS / FONT CHOSEN ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap');
+
+/* ===== BASIC PAGE SETUP ===== */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== HEADER + NAVIGATION ===== */
+header {
+    background-color: #e6e6e6;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #0051ff;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p span {
+    font-style: italic;
+    color: #555;
+}
+
+/* ===== FORM STYLING (order page) ===== */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 3.5px solid #00087d;
+    width: 750px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
