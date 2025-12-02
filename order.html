@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- TOP SECTION -->
+
+    <meta charset="utf-8">
+    <title>Order Product</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <a href="index.html"><img src="blue-guitar.png" alt="Logo" width="100"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="order.html">Order</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- MAIN ORDER SECTION -->
+<section>
+    <h1>OUR DEBUT ALBUM IS HERE.</h1>
+    <p>Pre-order “STARLIGHT" now, and be the first to receive the digital download or physical copy when it drops!</p>
+
+    <form action="thankyou.html">
+        <h2>How can we stay in touch with you?</h2>
+
+        <label>
+            Name:
+            <input type="text" name="customer">
+        </label>
+
+        <label>
+            Phone Number: 
+            <input type="tel" name="phone">(Optional)
+        </label>
+
+        <label>
+            Home Address:
+            <input type="text" name="address">(Optional for physical copy)
+        </label>
+
+        <label>
+            Choose how YOU want to listen!:
+            <select name="format">
+                <option value="digital">Digital Download on streaming</option>
+                <option value="cd">CD</option>
+                <option value="vinyl">Vinyl</option>
+            </select>
+        </label>
+
+        <label>
+            Email:
+            <input type="email" name="email" required> *Required Field
+        </label>
+
+        <fieldset>
+            <legend>Would you like to receive email updates from us here at GLO Studios?</legend>
+            <label>
+                Yes, keep me updated! 
+                <input type="radio" name="service" value="send emails">
+            </label>
+            <label>
+                No, Thanks.
+                <input type="radio" name="service" value="opt out">
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Submit Order">
+    </form>
+
+    <p>Can't wait for you to hear <strong>STARLIGHT</strong>!</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2025 GLO Studios</p>
+</footer>
